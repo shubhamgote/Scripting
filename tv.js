@@ -2,7 +2,7 @@
 obj['pro_plan'] = pro_premium;
 "badges" : [
     {
-      "name" : "pro:pro_premium_trial",
-      "verbose_name" : "Premium Trial"
+      "name" : "pro:pro_premium",
+      "verbose_name" : "Premium"
     }
 $done({body: JSON.stringify(obj)});
