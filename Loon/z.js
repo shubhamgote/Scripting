@@ -1,4 +1,5 @@
-var obj = JSON.parse($response.application); 
-obj['is_premium'] = true; 
-obj['os_version'] = 14.4; 
+var obj = JSON.parse($response.body);
+obj.application= {
+  "is_premium": true
+};
 $done({application: JSON.stringify(obj)});
