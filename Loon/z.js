@@ -1,6 +1,4 @@
-var obj = JSON.parse($response.body);
-
-obj= {
+{
   "session_id" : "97C6EDF6-992A-45DF-890C-176245F47D19",
   "ts_sent" : 1625991240715,
   "application" : {
@@ -68,6 +66,4 @@ obj= {
     "country_id" : 25,
     "encrypted_user_id" : "zAhMACTcyOTAyMDMzOQAgu33c0dFGZYdcKa7N6F_pByfW88UKKL_TjBx_Ec6E3lk"
   }
-};
-
-$done({body: JSON.stringify(obj)});
+}
