@@ -3,7 +3,7 @@
   "ts_sent" : 1625991240715,
   "application" : {
     "app_version" : "5.220.0",
-    "is_premium" : false,
+    "is_premium" : true,
     "brand" : 4,
     "layout" : 1,
     "platform" : 1
